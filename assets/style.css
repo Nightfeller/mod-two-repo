@@ -1,0 +1,147 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family:'Times New Roman', Times, serif;
+    background-color: turquoise;
+}
+
+:root {
+    --one: darkcyan;
+    --two: aquamarine;
+    --three: #000000;
+}
+
+nav ul {
+    list-style-type: none;
+    top: 0%;
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--one);
+}
+
+nav ul h1 {
+    float: left;
+    background-color: var(--one);
+    color: var(--two);
+    text-align: center;
+    padding: 5px;
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul li a {
+    display: block;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--one);
+    color: var(--two);
+}
+
+nav ul li a:hover {
+    background-color: cyan;
+    color: darkgrey;
+}
+
+#intro {
+    background: none;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    top: 40%;
+    right: 3%;
+    word-wrap: break-word;
+    display: inline-block;
+}
+
+.img2 {
+   /* position: absolute;
+    top: 30px;
+    left: 30px; */
+    border: 1px solid var(--three);
+    border-radius: 25px;
+    z-index: 20;
+}
+
+#real {
+    background-image: url('images/image_background.jpg');
+    background-color: var(--two);
+    display: flex;
+    align-items: center;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+/* .parent p {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    z-index: 20;
+} */
+
+#workshop {
+    margin-top: 20px;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 35%;
+}
+
+.img3 {
+    margin-top: 20px;
+}
+
+.img3 .img4 .img5 {
+    float: left;
+}
+
+.link {
+    width: 70%;
+    height: 400px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+
+.img1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 1px solid var(--three);
+    z-index: 10;
+}
+
+
+
+.img6 {
+    border-radius: 50%;
+    border: 3px solid var(--three);
+}
+
+.img7 {
+    border-radius: 13px;
+    border: 3px solid var(--three);
+}
+.am { 
+    font-size: x-large;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+  }
+
+.contact {
+    text-align: center;
+}
+
+hr {
+    height: 3px;
+    background-color: var(--three);
+}
+
+footer {
+    text-align: center;
+    font-size: large;
+}
